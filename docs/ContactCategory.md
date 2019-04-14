@@ -1,4 +1,4 @@
-# EvokeApiJavascriptClient.ContactCategory
+# DigitaleKulturEvokeApiClient.ContactCategory
 
 ## Properties
 

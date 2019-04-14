@@ -1,4 +1,4 @@
-# EvokeApiJavascriptClient.RegistrationApi
+# DigitaleKulturEvokeApiClient.RegistrationApi
 
 All URIs are relative to *http://localhost/api*
 
@@ -21,11 +21,11 @@ Create a new registration
 ### Example
 
 ```javascript
-import EvokeApiJavascriptClient from 'Evoke Api Javascript Client';
+import DigitaleKulturEvokeApiClient from 'digitale-kultur/evoke-api-client';
 
-let apiInstance = new EvokeApiJavascriptClient.RegistrationApi();
+let apiInstance = new DigitaleKulturEvokeApiClient.RegistrationApi();
 let year = 2019; // Number | Year to query for
-let registration = new EvokeApiJavascriptClient.Registration(); // Registration | Information about the user to be added
+let registration = new DigitaleKulturEvokeApiClient.Registration(); // Registration | Information about the user to be added
 apiInstance.createRegistration(year, registration, (error, data, response) => {
   if (error) {
     console.error(error);
@@ -66,9 +66,9 @@ Delete a single registration
 ### Example
 
 ```javascript
-import EvokeApiJavascriptClient from 'Evoke Api Javascript Client';
+import DigitaleKulturEvokeApiClient from 'digitale-kultur/evoke-api-client';
 
-let apiInstance = new EvokeApiJavascriptClient.RegistrationApi();
+let apiInstance = new DigitaleKulturEvokeApiClient.RegistrationApi();
 let year = 2019; // Number | Year to query for
 let id = 1; // Number | ID to delete
 let key = czC3BzTbyxHCNm1; // String | Hash to authenticate the deletion of this ID
@@ -113,9 +113,9 @@ Get the number of registrations
 ### Example
 
 ```javascript
-import EvokeApiJavascriptClient from 'Evoke Api Javascript Client';
+import DigitaleKulturEvokeApiClient from 'digitale-kultur/evoke-api-client';
 
-let apiInstance = new EvokeApiJavascriptClient.RegistrationApi();
+let apiInstance = new DigitaleKulturEvokeApiClient.RegistrationApi();
 let year = 2019; // Number | Year to query for
 apiInstance.numberOfRegistrations(year, (error, data, response) => {
   if (error) {
@@ -156,9 +156,9 @@ Get a list of countries
 ### Example
 
 ```javascript
-import EvokeApiJavascriptClient from 'Evoke Api Javascript Client';
+import DigitaleKulturEvokeApiClient from 'digitale-kultur/evoke-api-client';
 
-let apiInstance = new EvokeApiJavascriptClient.RegistrationApi();
+let apiInstance = new DigitaleKulturEvokeApiClient.RegistrationApi();
 apiInstance.showAllCountries((error, data, response) => {
   if (error) {
     console.error(error);
@@ -195,9 +195,9 @@ Get a list of all registrations
 ### Example
 
 ```javascript
-import EvokeApiJavascriptClient from 'Evoke Api Javascript Client';
+import DigitaleKulturEvokeApiClient from 'digitale-kultur/evoke-api-client';
 
-let apiInstance = new EvokeApiJavascriptClient.RegistrationApi();
+let apiInstance = new DigitaleKulturEvokeApiClient.RegistrationApi();
 let year = 2019; // Number | Year to query for
 apiInstance.showAllRegistrations(year, (error, data, response) => {
   if (error) {

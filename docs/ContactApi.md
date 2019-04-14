@@ -1,4 +1,4 @@
-# EvokeApiJavascriptClient.ContactApi
+# DigitaleKulturEvokeApiClient.ContactApi
 
 All URIs are relative to *http://localhost/api*
 
@@ -18,10 +18,10 @@ Send a new message
 ### Example
 
 ```javascript
-import EvokeApiJavascriptClient from 'Evoke Api Javascript Client';
+import DigitaleKulturEvokeApiClient from 'digitale-kultur/evoke-api-client';
 
-let apiInstance = new EvokeApiJavascriptClient.ContactApi();
-let contactMessage = new EvokeApiJavascriptClient.ContactMessage(); // ContactMessage | Information about the message to be sent
+let apiInstance = new DigitaleKulturEvokeApiClient.ContactApi();
+let contactMessage = new DigitaleKulturEvokeApiClient.ContactMessage(); // ContactMessage | Information about the message to be sent
 apiInstance.createMessage(contactMessage, (error, data, response) => {
   if (error) {
     console.error(error);
@@ -61,9 +61,9 @@ Get a list of all contact categories
 ### Example
 
 ```javascript
-import EvokeApiJavascriptClient from 'Evoke Api Javascript Client';
+import DigitaleKulturEvokeApiClient from 'digitale-kultur/evoke-api-client';
 
-let apiInstance = new EvokeApiJavascriptClient.ContactApi();
+let apiInstance = new DigitaleKulturEvokeApiClient.ContactApi();
 apiInstance.showAllCategories((error, data, response) => {
   if (error) {
     console.error(error);
