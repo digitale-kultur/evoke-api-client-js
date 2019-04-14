@@ -1,4 +1,4 @@
-# DigitaleKulturEvokeApiClient.ContactCategory
+# DigitaleKulturEvokeApiClientJs.ContactCategory
 
 ## Properties
 

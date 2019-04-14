@@ -1,4 +1,4 @@
-# DigitaleKulturEvokeApiClient.Registration
+# DigitaleKulturEvokeApiClientJs.Registration
 
 ## Properties
 

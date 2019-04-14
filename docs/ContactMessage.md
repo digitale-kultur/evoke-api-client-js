@@ -1,4 +1,4 @@
-# DigitaleKulturEvokeApiClient.ContactMessage
+# DigitaleKulturEvokeApiClientJs.ContactMessage
 
 ## Properties
 
